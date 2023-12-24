@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculadora de IMC</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Calculadora de IMC</h1>
+      <small class="subtitle"> (Índice de masa corporal) </small>
+       Peso (Kg):
+      <input autofocus type="number" class="input" id="weight" />
+       Altura (M):
+      <input type="number" class="input" id="height" />
+      <button class="btn" id="btn">Calcular</button>
+      <input disabled type="text" class="input" id="imc-result" />
+      <h4 class="txt">Condición: <span id="condition"></span></h4>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
